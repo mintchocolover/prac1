@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    char cha = "k";
+    int in = 5;
+    printf("input int : ");
+    scanf("%d",&in);
+    while(getchar() != '\n');
+    printf("input char :");
+    scanf("%c",&cha);
+    printf("ch=%c,in=%d\n",cha,in);
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    char input1, input2;
+    int result;
+
+    printf("Enter the first digit: ");
+    scanf("%c", &input1);
+
+    printf("Enter the second digit: ");
+    scanf(" %c", &input2);
+
+    result = (input1 - '0') + (input2 - '0');
+
+    printf("The result of %c + %c is %d.\n", input1, input2, result);
+
+    return 0;
+}
